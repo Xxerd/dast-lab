@@ -2,7 +2,7 @@ name: Continuous DAST Pipeline (OWASP ZAP)
 # Trigger the workflow on pushes to the main branch or manual dispatch
 on:
     push:
-        branches: [ "main" ]
+        branches: [ "master" ]
     workflow_dispatch:
 jobs:
     security-scan:
